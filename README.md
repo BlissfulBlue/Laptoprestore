@@ -7,4 +7,8 @@
 - choco install grep
 - choco install visualstudiocode 
 - All at once:
--- choco install -y grep visualstudio2019community googlechrome curl visualstudiocode origin 7zip git vim steam uplay docker-desktop
+-- choco install -y grep visualstudio2019community googlechrome curl visualstudiocode origin 7zip git vim steam uplay docker-desktop DotNet3.5 virtualbox roofus
+- Windows Home does not support docker-desktop. Windows Pro supports docker-desktop.
+- Windows virtualbox and docker-desktop cannot coexist.
+- To have virtualbox, you can have dockertoolbox.
+
