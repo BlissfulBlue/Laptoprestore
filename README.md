@@ -5,4 +5,6 @@
 -choco install (-y) googlechrome
 -choco install vim
 -choco install grep
--choco install visualstudiocode
+-choco install visualstudiocode 
+-All at once:
+-- choco install -y grep visualstudio2019community googlechrome curl visualstudiocode origin 7zip git vim
